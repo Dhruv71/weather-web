@@ -14,12 +14,12 @@ weatherform.addEventListener('submit', (e) => {
          {
            messageOne.textContent = data.error;
            messageTwo.textContent = '';
-           console.log('error found :    ' + data.error );
+          // console.log('error found :    ' + data.error );
          }
          else {
            messageOne.textContent = data.location;
            messageTwo.textContent = data.forecast;
-           console.log(data);
+           //console.log(data);
          }
     } )
   })
