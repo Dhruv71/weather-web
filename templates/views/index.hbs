@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>my express</title>
+  </head>
+  <body>
+    {{>header}}
+    <!-- <h1 class="title">{{title}}</h1> -->
+    /<p id="info" >-Use this site for found Weather</p>
+    <form>
+      <input class="address"type="text" placeholder="location"><br>
+      <button class="search" >Search</button>
+    </form>
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+   {{>footer}}
+
+   <script src="/js/app.js" charset="utf-8"></script>
+  </body>
+</html>

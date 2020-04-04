@@ -1,0 +1,80 @@
+{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  color: grey;
+  margin-left: 48%;
+}
+.logo{
+  color: blue;
+  /* border-bottom: 2px solid grey; */
+  /* margin-left: 80px;
+  margin-top: 100px;*/
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+a{
+  font-size: 35px;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  padding: 5px;
+}
+a:hover{
+  cursor: pointer;
+  color: red;
+}
+#info{
+  color: red;
+  /*padding-top: 30px;*/
+  margin-left: 36%;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 25px;
+}
+.error{
+  text-align: center;
+  /*display: inline-block;*/
+  margin-top: 100px;
+  color: red;
+  font-family: inherit;
+  font-size: 50px;
+}
+.address{
+  margin-left: 36%;
+  width: 300px;
+  height: 35px;
+  outline: none;
+  font-size: 20px;
+  border-color: #00BFFF;
+  border-radius: 5px;
+
+}
+.search{
+  outline: none;
+  margin-left: 36%;
+  margin-top: 25px;
+  width: 190px;
+  height: 35px;
+  background-color: lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#message-1, #message-2{
+  margin-left: 36%;
+  color: #db0d3d;
+  font-size: 24px;
+  font-weight: bold;
+}
