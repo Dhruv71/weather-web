@@ -2,14 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/styles.css">
 
     <title>my express</title>
   </head>
   <body>
     {{>header}}
-    <!-- <h1 class="title">{{title}}</h1> -->
-    /<p id="info" >-Use this site for found Weather</p>
+    <h3 id="note">Use this site for searching Weather</h3>
+    <p id="info" >Search Weather</p>
     <form>
       <input class="address"type="text" placeholder="location"><br>
       <button class="search" >Search</button>

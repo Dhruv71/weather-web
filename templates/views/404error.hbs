@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>404</title>
+    <link rel="icon" href="/img/weather.png">
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/styles.css">
     <title></title>
   </head>
   <body>
       {{>header}}
-      <h2 class="error">{{errmsg}}</h2>
+      <div class="error">
+        <p>404</p>
+        <p>{{errmsg}}</p>
+      </div>
+
       {{>footer}}
   </body>
 </html>

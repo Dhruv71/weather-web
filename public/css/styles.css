@@ -8,15 +8,23 @@ body{
   min-height: 100vh;
 
 }
-.footer{
-  position: absolute;
+footer {
+  position: fixed;
   bottom: 0;
-  color: grey;
-  margin-left: 48%;
+  width: 100%;
 }
+.footer{
+  padding: 20px;
+  color: grey;
+  font-size: 32px;
+  margin: auto;
+  text-align: center;
+}
+
 .logo{
   color: blue;
-  /* border-bottom: 2px solid grey; */
+  border-bottom: 2px solid grey;
+  height: 75px;
   /* margin-left: 80px;
   margin-top: 100px;*/
   margin-left: 20px;
@@ -29,20 +37,32 @@ a{
   text-decoration: none;
 }
 li{
-  list-style: none;
+  list-style: disc;
   padding: 5px;
 }
 a:hover{
   cursor: pointer;
   color: red;
 }
+
 #info{
-  color: red;
+  color: #2F4F4F;
   /*padding-top: 30px;*/
+  font-weight: bold;
   margin-left: 36%;
-  margin-top: 10px;
+  margin-top: 90px;
   font-family: monospace;
-  font-size: 25px;
+  font-size: 35px;
+}
+#note{
+  margin-left: 20px;
+  margin-top: -80px;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: monospace;
+  color: #1E90FF;
+  text-align: center;
+
 }
 .error{
   text-align: center;
@@ -77,4 +97,10 @@ a:hover{
   color: #db0d3d;
   font-size: 24px;
   font-weight: bold;
+}
+.aboutMe{
+  font-size: 26px;
+  font-family: arial,serif;
+  text-align:center;
+  margin-top: 50px;
 }

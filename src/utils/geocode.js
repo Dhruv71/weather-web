@@ -3,7 +3,7 @@ const request = require('request');
 
 const geocode = (address,callback) => {
   const url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + address +'.json?access_token=pk.eyJ1IjoiZGg3MSIsImEiOiJjazhhNDhhN20wMHY1M2dwY242djY5bjJqIn0.GhCjw0zuCkHEwFfDXbZ2dA&limit=1'
-  request( { url : url, json: true}, (error,{body}) => {
+  request( { url : url, json: true}, (error,{body}={}) => {
     if (error) {
       callback('Unable to connect with network', undefined)
     }

@@ -73,7 +73,8 @@ app.get('/weather', (req,res) => {
 
 })
 
-app.get('/help/*', (req,res) =>{
+app.get('/help/*', (req,res) =>
+{
   res.render('404error',{
     errmsg: 'help article not found!!!',
     name: 'Dhruv'
@@ -97,5 +98,5 @@ app.get('*', (req,res) =>{
 })
 
 app.listen(port, () => {
-  console.log('web is port on ' + port);
+  console.log('web is on port ' + port);
 })
